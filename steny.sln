@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "steny", "steny\steny.csproj", "{134A4345-8262-4FC1-9384-39C801DC64DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stenytest", "stenytest\stenytest.csproj", "{C27CF82E-2794-4A04-9104-21A930474EAE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{134A4345-8262-4FC1-9384-39C801DC64DE} = {134A4345-8262-4FC1-9384-39C801DC64DE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{134A4345-8262-4FC1-9384-39C801DC64DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134A4345-8262-4FC1-9384-39C801DC64DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134A4345-8262-4FC1-9384-39C801DC64DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134A4345-8262-4FC1-9384-39C801DC64DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27CF82E-2794-4A04-9104-21A930474EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27CF82E-2794-4A04-9104-21A930474EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27CF82E-2794-4A04-9104-21A930474EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27CF82E-2794-4A04-9104-21A930474EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A63CCE69-9DE2-40E9-8EA5-6FB743B4C7A7}
+	EndGlobalSection
+EndGlobal
